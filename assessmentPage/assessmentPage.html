@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="assessment">
+    <a href="../Dashboardf/dashboardPage.html">
+      <img class="image-1" src="image-10.png" />
+    </a>
+    <img class="image" src="image0.png" />
+    <img class="logo-binusmaya-header-11" src="logo-binusmaya-header-110.png" />
+    <img class="logo-binusmaya-header-12" src="logo-binusmaya-header-120.png" />
+    <img class="logo-binusmaya-header-17" src="logo-binusmaya-header-170.png" />
+    <div class="rectangle-25"></div>
+    <div class="scrollbar">
+      <div class="thumb">
+        <div class="v-spacer">
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+    <div class="line-8"></div>
+    <div class="rectangle-3"></div>
+    <div class="assessment2">Assessment</div>
+    <div class="rectangle-4"></div>
+    <div class="line-1"></div>
+    <div class="_2025-binus-university">© 2025 BINUS University</div>
+    <img class="icon-bell" src="icon-bell0.svg" />
+    <div class="upcoming-class">UPCOMING CLASS</div>
+    <div class="binus-support">BINUS Support</div>
+    <div class="lock-screen-widget-inline">
+      <div class="sat-10-nyc-12-41-am">Sat 10, 12:41 AM</div>
+    </div>
+    <img class="image-removebg-preview-1" src="image-removebg-preview-10.png" />
+    <a href="../ClassPage/classPage.html">
+    <div class="frame-2">
+      <div class="rectangle-19">
+        <div class="rectangle-18">
+        <div class="thu-6">
+          Thu
+          <br />
+          6
+        </div>
+        <div class="line-5"></div>
+        <div class="data-structures">Data Structures</div>
+        <div class="_09-20-11-00-gmt-7">09:20 - 11:00 GMT+7</div>
+        <div class="room-a-1301-alam-sutera-main-campus">
+          <span>
+            <span class="room-a-1301-alam-sutera-main-campus-span">
+              Room A1301
+              <br />
+            </span>
+            <span class="room-a-1301-alam-sutera-main-campus-span2">
+              Alam Sutera Main Campus
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    </a>
+    <a href="../ClassPage/classPage.html">
+      <div class="rectangle-20">
+        <div class="rectangle-18">
+        <div class="thu-62">
+          Thu
+          <br />
+          6
+        </div>
+        <div class="data-structures2">Data Structures</div>
+        <div class="_11-20-13-00-a-1301">11:20 - 13:00 | A1301</div>
+        <div class="line-52"></div>
+      </div>
+      </div>
+      </a>
+      <a href="../ClassPage/classPage.html"> 
+      <div class="rectangle-21">
+        <div class="rectangle-18">
+        <div class="thu-62">
+          Thu
+          <br />
+          6
+        </div>
+        <div class="data-structures2">Data Structures</div>
+        <div class="_11-20-13-00-a-1301">11:20 - 13:00 | A1301</div>
+        <div class="line-52"></div>
+      </div>
+      </div>
+      </a>
+      <div class="button" onclick="changeStyle()" style="cursor: pointer;">
+        <div id="btn-inner" class="button2">
+          <div class="state-layer"></div>
+        </div>
+      </div>
+      <img onclick="changeStyle()" style="cursor: pointer;" class="vector" src="vector0.svg" />
+      <script>
+        function changeStyle() {
+          const btn = document.getElementById("btn-inner");
+          btn.classList.toggle("button2");
+          btn.classList.toggle("button2clicked");
+        }
+      </script>
+    </div>
+    <div id="btn-supp" class="component-4" onclick="supportStyle()" style="cursor: pointer;" />
+      <img class="bx-support" src="bx-support0.svg" />
+      <div class="support">Support</div>
+      <img class="chevron-down" src="chevron-down0.svg" />
+      <div id="extra-text" style="display: none; margin-top: 10px;">
+        <p id="extra-text" class="support-extra">Find answers</p>
+        <p id="extra-text" class="support-extra">Contact Us</p>
+        <p id="extra-text" class="support-extra">Suggest an improvement</p>
+        <p id="extra-text" class="support-extra">Support page</p>
+      </div>
+    <script>
+      function supportStyle() {
+        const btn = document.getElementById("btn-supp");
+        const extraText = document.getElementById("extra-text");
+        btn.classList.toggle("component-4");
+        btn.classList.toggle("component-4-clicked");
+        
+        if (btn.classList.contains("component-4-clicked")) {
+          extraText.style.display = "block";
+        } else {
+          extraText.style.display = "none";
+        }
+      }
+    </script>
+    </div>
+    <a href="../assignmentPage/assignmentPage.html">
+    <div class="assignment-menu">
+      <div class="rectangle-28">
+      <div class="assignment-name">Assignment name</div>
+      <div class="course-name">Course name</div>
+      <div class="due-date">Due Date</div>
+    </div>
+    </div>
+    </a>
+    <a href="../assignmentPage/assignmentPage.html">
+    <div class="assignment-menu2">
+      <div class="rectangle-28">
+      <div class="assignment-name">Assignment name</div>
+      <div class="course-name">Course name</div>
+      <div class="due-date">Due Date</div>
+    </div>
+    </div>
+    </a>
+    <a href="../assignmentPage/assignmentPage.html">
+    <div class="assignment-menu3">
+      <div class="rectangle-28">
+      <div class="assignment-name">Assignment name</div>
+      <div class="course-name">Course name</div>
+      <div class="due-date">Due Date</div>
+    </div>
+    </div>
+    </a>
+    <a href="../assignmentPage/assignmentPage.html">
+    <div class="assignment-menu4">
+      <div class="rectangle-28">
+      <div class="assignment-name">Assignment name</div>
+      <div class="course-name">Course name</div>
+      <div class="due-date">Due Date</div>
+    </div>
+    </div>
+    </a>
+    <div class="my-tasks">My Tasks</div>
+    <div class="rectangle-23">
+      <div class="rectangle-22"></div>
+    </div>
+    <div class="overlay-menu">
+      <div class="hover-bg">
+        <div class="overlay-text">
+          Dashboard
+        </div>
+        <div class="overlay-text">
+          Courses
+        </div>
+        <div class="overlay-text">
+          Assignments
+        </div>
+        <div class="overlay-text">
+          Schedule
+        </div>
+        <div class="overlay-text">
+          Announcements
+        </div>
+      </div>
+      <div class="icon-frame">
+        <a overlay-data="Dashboard" href="../Dashboardf/dashboardPage.html">
+          <img class="dashboard-logo" src="dashboard-logo0.svg" />
+        </a>
+      <div class="dashboard-logo2">
+        <a overlay-data="Courses" href="../CoursePage/coursePage.html">
+          <img class="courses-logo" src="courses-logo0.svg" alt="Courses Logo" style="cursor: pointer;" />
+        </a>
+      </div>
+      <div class="dashboard-logo3">
+        <a overlay-data="Assignments" href="../assessmentPage/assessmentPage.html">
+          <img class="assignment-logo" src="assignment-logo0.svg" />
+        </a>
+      </div>
+      <div class="dashboard-logo4">
+        <a overlay-data="Schedule" href="../schedulePage/schedulePage.html">
+          <img class="schedule-logo" src="schedule-logo0.svg" />
+        </a>
+      </div>
+      <div class="dashboard-logo5">
+        <a overlay-data="Announcements" href="../AnnouncementPage/announcementPage.html">
+          <img class="announcement-logo" src="announcement-logo0.svg" alt="Announcement Logo" style="cursor: pointer;"/>
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+</body>
+</html>
